@@ -1,0 +1,19 @@
+<html>
+<head>
+<style>
+high {background-color:red;
+color:white;
+size:12pt;
+}
+medium {background-color:orange;
+color:white;
+size:12pt;
+}
+low {background-color:gray;
+color:black;
+size:12pt;
+}
+done {background-color:color;
+color:cyan;
+size:12pt;
+}
