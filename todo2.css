@@ -1,16 +1,20 @@
-high {background-color:red;
-color:white;
+.high {background-color:red;
 size:12pt;
 }
-medium {background-color:orange;
-color:white;
+.medium {background-color:orange;
 size:12pt;
 }
-low {background-color:gray;
-color:black;
+.low {background-color:gray;
 size:12pt;
 }
-done {background-color:color;
-color:cyan;
+.done {background-color:black;
 size:12pt;
+}
+.high li {color:white;
+}
+.medium li {color:white;
+}
+.low li {color:black;
+}
+.done li {color:cyan;
 }
