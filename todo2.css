@@ -19,5 +19,8 @@ size:12pt;
 .done li {color:cyan;
 }
 section {
-  border:5px soild black;
+  border: 5px soild black;
+  height: 200px;
+  width: 300px;
+  overflow: auto;
 }
