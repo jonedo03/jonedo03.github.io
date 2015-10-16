@@ -1,4 +1,10 @@
 <html>
+<style>
+section {
+background-color= blue;
+Height= 100;
+width= 500;
+}
 <nav>
 
 <h1 textalign=center>Busy Busy</h1>
