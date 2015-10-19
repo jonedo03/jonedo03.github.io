@@ -1,4 +1,5 @@
 <html>
+<link rel="javascript" href="todo.js" type="text/js">
 <style>
 section {
 background-color= blue;
