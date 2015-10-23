@@ -1,4 +1,4 @@
-addli = Function() {
+addli = function() {
   var myBox, mylist,myLi, myPriority, mytext, myUL, myInput;
   
   myBox = document.querySelector ('#textbox');
@@ -22,6 +22,8 @@ addli = Function() {
  myInput.type = "checkbox";
  
  myLi.appendChild(myInput);
+ 
+ localsave("tasklist")
  
 }
   
