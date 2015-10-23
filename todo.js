@@ -23,7 +23,7 @@ addli = function() {
  
  myLi.appendChild(myInput);
  
- localsave("tasklist")
+ localSave("tasklist")
  
  
  
@@ -37,7 +37,7 @@ addli = function() {
       this.parentNode.classList.remove("done");
       
     }
-  localsave ('tasklist')
+  localSave ('tasklist')
   }
   
   
