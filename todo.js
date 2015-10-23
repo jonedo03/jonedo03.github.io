@@ -30,7 +30,7 @@ addli = function() {
 }
   
   doneTask = function() {
-    (this.checked) {
+   if (this.checked) {
       this.parentNode.classList.add("done");
       
     } else {
