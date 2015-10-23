@@ -7,9 +7,9 @@ addli = Function() {
   
   myLi = document.createElement("li");
   
-  myLi.classlist.add(myPriority.value);
-  
   myText = document.createTextNode(myBox.value);
+  
+  myLi.classlist.add(myPriority.value);
   
  myLi.appendChild(myText);
  
