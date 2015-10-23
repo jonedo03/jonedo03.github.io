@@ -9,7 +9,7 @@ addli = function() {
   
   myText = document.createTextNode(myBox.value);
   
-  myLi.classlist.add(myPriority.value);
+  myLi.classList.add(myPriority.value);
   
  myLi.appendChild(myText);
  
@@ -25,10 +25,20 @@ addli = function() {
  
  localsave("tasklist")
  
+ 
+ 
 }
   
-  // dropdowninput = document.querySelector("#priority");
-  // dropdowninput.value
+  doneTask = function() {
+    (this.checked) {
+      this.parentNode.classList.add("done");
+      
+    } else {
+      this.parentNode.classList.remove("done");
+      
+    }
+  localsave ('tasklist')
+  }
   
   
   
