@@ -1,6 +1,20 @@
 .high {color:red;
 }
+
 .medium {color:orange;
 }
+
 .low  {color:yellow;
+}
+
+nav {
+  text-align:center;
+}
+
+section {
+background-color: blue;
+Height: 500px;
+width: 1000px;
+border: 5px solid black;
+margin: 25px;
 }
